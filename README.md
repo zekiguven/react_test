@@ -7,6 +7,6 @@ todo-app
 
 todo-app-mobx
 =============
-npx create-react-app todo-app-mobx  --use-npm --template typescript
-cd todo-app-mobx
-npm install mobx mobx-react
+    npx create-react-app todo-app-mobx  --use-npm --template typescript
+    cd todo-app-mobx
+    npm install mobx mobx-react

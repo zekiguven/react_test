@@ -1,2 +1,6 @@
 # react_test
-react testleri
+typescript ile react testleri
+
+todo-app
+========
+npx create-react-app todo-app --use-npm --template typescript

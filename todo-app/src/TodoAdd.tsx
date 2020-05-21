@@ -7,7 +7,6 @@ export type AddTodoFormProps = {
 }
 
 export const AddTodoForm: React.FC<AddTodoFormProps> = ({ addTodo }) => {
-
     const [newTask, setNewTask] = useState("");
     
     const handleChange = (e:ChangeEvent<HTMLInputElement>) => {
@@ -23,8 +22,8 @@ export const AddTodoForm: React.FC<AddTodoFormProps> = ({ addTodo }) => {
     
     return (
         <form>
-            <input id="inputAdd" type="text" onChange={handleChange}></input>
-            <button onClick={handleSubmit}  type="submit" >Ekle</button>
+            <input id="inputAdd" type="text" value={newTask} onChange={handleChange}></input>
+            <button id="buttonAdd" onClick={handleSubmit}  type="submit" >Ekle</button>
         </form>    
     )
 };

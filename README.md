@@ -1,12 +1,12 @@
 # react_test
 typescript ile react testleri
 
-todo-app
-========
-    npx create-react-app todo-app --use-npm --template typescript
+todo-hooks
+========    
+	npx create-react-app todo-hooks --use-npm --template typescript
 
-todo-app-mobx
+todo-mobx
 =============
-    npx create-react-app todo-app-mobx  --use-npm --template typescript
-    cd todo-app-mobx
+    npx create-react-app todo-mobx  --use-npm --template typescript
+    cd todo-mobx
     npm install mobx mobx-react
